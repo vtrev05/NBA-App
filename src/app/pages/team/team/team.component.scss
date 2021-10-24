@@ -1,0 +1,50 @@
+$mainred: #c8102e;
+$mainblue: #1d428a;
+$maincolor: whitesmoke;
+
+.title{
+    text-align: center;
+    font-size: 2rem;
+    margin: 50px auto;
+}
+img{
+    width: 100%;
+    border-radius: 8px;
+    max-width: 320px;
+    border: 2px solid $mainblue;
+    margin: 0 auto;  
+}
+h1{
+    margin: 40px auto;
+    color: $maincolor;
+}
+h4 {
+    display: block;
+    font-size: 1rem;
+    color: $maincolor;
+}
+ul{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+    text-align: center;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 90%;
+    max-width: 400px;
+    border: 2px solid $mainblue;
+    border-radius: 5px;
+    margin: 0 auto 30px auto;
+    padding: 0 20px 20px;
+    cursor: pointer;
+}
+span{
+    margin: 10px auto;
+    color: $mainred;
+}

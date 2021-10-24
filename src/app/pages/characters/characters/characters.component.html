@@ -1,0 +1,9 @@
+<div *ngIf="characterList">
+    <h3 class="title">NBA Teams List</h3>
+      <ul>
+        <li [routerLink]="['/character/' + character.id]" class="container" *ngFor="let character of characterList let index = index">
+            <h3>{{ character.id }}</h3>
+            <img class="img" src="https://images.fineartamerica.com/images-medium-large-5/hoop-it-up-recycled-vintage-basketball-league-team-logos-license-plate-art-design-turnpike.jpg" alt="all time teams">
+            <h4>{{ character.full_name }}</h4>
+        </li>
+      </ul>

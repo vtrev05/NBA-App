@@ -1,0 +1,12 @@
+<div *ngIf="teamInfo" class="container">
+    <ul>
+    <li >
+      <h1>{{ teamInfo.full_name }}</h1>
+      <img src="https://www.wallpapertip.com/wmimgs/27-276025_nba-teams-logos.jpg" alt="all time teams">
+      <h4>Name:<span> {{teamInfo.name}}</span></h4>
+      <h4>División:<span> {{teamInfo.division}}</span></h4>
+      <h4>Abreviatura:<span> {{teamInfo.abbreviation}}</span></h4>
+      <h4>Conferencia:<span> {{teamInfo.conference}}</span></h4>
+    </li>
+  </ul>
+</div>
