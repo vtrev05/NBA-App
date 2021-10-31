@@ -1,0 +1,10 @@
+<div *ngIf="playerList">
+    <h3 class="title">NBA Players List</h3>
+      <ul>
+        <li class="container" *ngFor="let player of playerList let index = index">
+          <span> {{player.name}}</span>
+          <img src={{player.image}} alt="all time teams">
+          <h4>Posición:<span> {{player.position.toUpperCase()}}</span></h4>
+          <h4>Altura:<span> {{player.height}}cm</span></h4>
+        </li>
+      </ul>

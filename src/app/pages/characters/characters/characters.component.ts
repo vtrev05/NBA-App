@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Character } from 'src/app/shared/model/shared';
 import { CharacterService } from '../services/character.service';
+
 @Component({
   selector: 'app-characters',
   templateUrl: './characters.component.html',

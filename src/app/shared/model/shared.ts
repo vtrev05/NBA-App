@@ -7,3 +7,9 @@ export interface Character {
     conference: string;
 
 }
+export interface Player {
+    name: string;
+    image: string;
+    position: string;
+    height: number;
+}

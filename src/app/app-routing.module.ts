@@ -10,9 +10,13 @@ const routes: Routes = [
     path: `characters`, loadChildren: () => import('./pages/characters/characters.module').then(m => m.CharactersModule)
   },
   {
+    path: `players`, loadChildren: () => import('./pages/player/player.module').then(m => m.PlayerModule)
+  },
+  {
     path: `character/:id`, loadChildren: () =>
       import('./pages/team/team.module').then(m => m.TeamModule)
   },
+
   { path: ``, redirectTo: `home`, pathMatch: `full` }
 ];
 
